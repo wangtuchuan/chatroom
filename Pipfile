@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+flask = "*"
+bleach = "*"
+eventlet = "*"
+flask-login = "*"
+flask-moment = "*"
+flask-socketio = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+markdown = "*"
+pygments = "*"
+flask-oauthlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
